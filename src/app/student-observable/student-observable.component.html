@@ -1,0 +1,22 @@
+<p>
+  Start editing to see some magic happen :)
+</p>
+
+<button (click)='agregar()'>agregar</button>
+<button (click)='eliminarFinal()'>eliminar</button>
+<!-- <button (click)='desuscrib()'>desuscrib</button> -->
+<p>
+  suma {{ total }}
+</p>
+
+<p>
+  total de alumnos es: {{ alumnosTotal }}
+</p>
+
+<ul>
+  <li *ngFor='let i of students_obs'>
+    {{ i.id }}.  {{ i.name}}
+  </li>
+</ul>
+
+<!-- <button (click)='printObs()'>Imprime</button> -->
